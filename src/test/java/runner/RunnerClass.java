@@ -6,10 +6,10 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features={"src/test/resources/sample5.feature"},
+@CucumberOptions(features={"src/test/resources/sample1.feature"},
                          glue="stepdef",
-                        plugin="html:target/htmlreport")
-                        // plugin="json:target/cucumber.json"
+                       // plugin="html:target/htmlreport")
+                         plugin="json:target/cucumber.json")
                          //plugin="junit:target/xmlreport.xml",
                         // tags={"@smoke"}
                         // tags={"@smoke,@regression"})
