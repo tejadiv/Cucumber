@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.007927">
+<testcase classname="Test background keyword" name="search for the product" time="0.007927">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at stepdef.sample4.app_displays_welcome_message(sample4.java:23)&#13;&#10;&#9;at ✽.app displays welcome message(src/test/resources/sample4.feature:3)&#13;&#10;"><![CDATA[Given app displays welcome message..........................................failed
+When user searches for iphone...............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at stepdef.sample4.app_displays_welcome_message(sample4.java:23)
+	at ✽.app displays welcome message(src/test/resources/sample4.feature:3)
+]]></failure>
+</testcase>
+</testsuite>

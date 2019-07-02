@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="stepdef.sample4">
+        <methods>
+          <include name="user_performing_logout_from_online_shopping_cart"/>
+          <include name="user_un_and_psd"/>
+          <include name="configureBrowser"/>
+          <include name="closeApplication"/>
+          <include name="user_performing_payment_process_using_netbanking"/>
+          <include name="user_adding_the_searched_product_to_cart"/>
+        </methods>
+      </class> <!-- stepdef.sample4 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

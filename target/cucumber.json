@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1095500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "app displays welcome message",
+            "match": {
+              "location": "sample4.app_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "signin",
+        "description": "",
+        "id": "test-background-keyword;signin",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 210100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user un and psd",
+            "match": {
+              "location": "sample4.user_un_and_psd()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click sigin",
+            "match": {
+              "location": "sample4.click_sigin()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 242500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "app displays welcome message",
+            "match": {
+              "location": "sample4.app_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "search for the product",
+        "description": "",
+        "id": "test-background-keyword;search-for-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 152200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user searches for iphone",
+            "match": {
+              "location": "sample4.user_searches_for_iphone()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 225500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "app displays welcome message",
+            "match": {
+              "location": "sample4.app_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "add to cart",
+        "description": "",
+        "id": "test-background-keyword;add-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user adding the searched product to cart",
+            "match": {
+              "location": "sample4.user_adding_the_searched_product_to_cart()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 108500,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "app displays welcome message",
+            "match": {
+              "location": "sample4.app_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "payment process",
+        "description": "",
+        "id": "test-background-keyword;payment-process",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 68300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user performing payment process using netbanking",
+            "match": {
+              "location": "sample4.user_performing_payment_process_using_netbanking()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "display welcome",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 762600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "app displays welcome message",
+            "match": {
+              "location": "sample4.app_displays_welcome_message()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "signout",
+        "description": "",
+        "id": "test-background-keyword;signout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user performing logout from online shopping cart",
+            "match": {
+              "location": "sample4.user_performing_logout_from_online_shopping_cart()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Test background keyword",
+    "description": "",
+    "id": "test-background-keyword",
+    "keyword": "Feature",
+    "uri": "src/main/resources/sample4.feature",
+    "tags": []
+  }
+]
